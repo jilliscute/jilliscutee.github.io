@@ -4,7 +4,7 @@
 }
 
 .container{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -50,6 +50,36 @@
     font-size: 24px;
 }
 
-.intro-block{
-    background-color: antiquewhite;
+.education-item .LOGO img {
+    width: 75px;
+    height: 75px;
+}
+
+img{
+    border-style: none;
+}
+
+.education-item ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
 }
