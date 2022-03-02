@@ -1,10 +1,10 @@
 /* 定寬容器 */
-
 .primary{
-    color: rgba(137, 43, 226, 0.555);
+    color: #186a3b;
 }
+
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -14,7 +14,6 @@
 }
 
 .intro-block .row{
-
     align-items: center;
 }
 .avatar{
@@ -32,10 +31,25 @@
 
 .contact-me ul{
     list-style: none;
-    padding: 0%;
+    padding: 0;
 }
-
-.contact-me ul li{
+.contact-me>ul li{
     display: inline;
     padding: 0 5px;
+}
+
+.contact-me a {
+    text-decoration: none;
+}
+
+.secondary {
+    color: #AAA;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.intro-block{
+    background-color: antiquewhite;
 }
